@@ -1,6 +1,9 @@
 import ColorSelect from "./inputColorSelect";
+import {useAppSelector} from '../hooks/redux';
+import {RootState} from '../store/store';
 
 function BascetItem(){
+    const {}=useAppSelector((state:RootState) =>state.userReducer )
     return(
         <div className="product_shoes">
         <button >

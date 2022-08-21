@@ -12,7 +12,8 @@
       "isolatedModules": true,
       "noEmit": true,
       "noFallthroughCasesInSwitch": true,
-      "jsx": "react-jsx"
+      "jsx": "react-jsx",
+      "types": ["react/next", "react-dom/next"],
     },
     "include": [
       "src",
